@@ -1,0 +1,50 @@
+# Node/Vite/Parcel/Webpack build trash
+**/node_modules/
+**/dist/
+**/.vite/
+**/.next/
+**/.cache/
+**/.parcel-cache/
+**/.turbo/
+
+# OS + Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.log
+
+# Python junk, just in case
+__pycache__/
+*.py[cod]
+
+# Don't track temporary archives
+*.zip
+*.tar
+*.tgz
+*.gz
+*.7z
+
+# If you temporarily build in place
+/build/
+.tmp/
+temp/
+
+# Ignore source maps
+*.map
+
+# Ignore backup/IDE settings
+*.orig
+.idea/
+.vscode/
+*.code-workspace
+
+# Optional: allow only prebuilt binaries and statics
+# (comment these out if you *do* want to track built dist folders)
+# portfolio-site/
+# v86-terminal/
+# shared-assets/
+
+# Allow this README
+!README.md
